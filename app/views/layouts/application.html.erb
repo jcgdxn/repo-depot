@@ -40,9 +40,33 @@
     <hr />
 
     <br class="clear" />
-
-    <%= yield %>
     
+    <div class="container">
+
+      <%= yield %>
+
+    </div>
+
+    <div class="footer">
+
+        <div class="container">
+
+          <div class="row">
+
+              <div class="col-6">
+                <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+              </div>
+
+              <div class="col-6 footer-blurb">
+               Consider designing your very own plaid <a href="url linkin">[entity name here]</a><br />
+               Let's get a loom to deploy your own color-schemed plaid...Think of it!
+               <a href="url-to-design-tool"></a>
+              </div>
+          </div>
+        </div>
+    </div>
+    
+
   </body>
 
 </html>
